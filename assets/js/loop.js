@@ -41,12 +41,12 @@ jQuery( function($){
 	/* navbar setting functions */
 	function setNavbarLight() {
 		$('.navbar').addClass('navbar-light');
-		$('.navbar-brand img').attr('src', 'assets/img/loop-logo.png');
+		$('.navbar-brand img').attr('src', 'assets/img/logo-kearis.gif');
 	}
 
 	function setNavbarTransparent() {
 		$('.navbar').removeClass('navbar-light');
-		$('.navbar-brand img').attr('src', 'assets/img/loop-logo-white.png');
+		$('.navbar-brand img').attr('src', 'assets/img/logo-kearis-white.gif');
 	}
 
 	// hide collapsible menu
