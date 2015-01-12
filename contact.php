@@ -34,14 +34,14 @@ if( isset($_POST['msg-submitted']) ) {
 		
 	if(!isset($hasError)) {
 		
-		$emailTo = 'youremail@domain.com';
+		$emailTo = 'thierry.poutrain@kearis.fr';
 		$subject = 'New Submitted Message From: ' . $name;
 		$body = "Name: $name \n\nEmail: $email \n\nMessage: $message";
 		$headers = 'From: ' .' <'.$emailTo.'>' . "\r\n" . 'Reply-To: ' . $email;
 
 		mail($emailTo, $subject, $body, $headers);
 		
-		$message = 'Thank you ' . $name . ', your message has been submitted.';
+		$message = 'Merci ' . $name . ', votre message a &eacute;t&eacute; envoy&eacute;.';
 		$result = true;
 	
 	} else {
